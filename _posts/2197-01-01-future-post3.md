@@ -30,20 +30,33 @@ Selecting the appropriate problem and determining the nature of input and output
 Embedding physics in the problem
 ======
 Choosing what phenomena to model with machine learning (ML) is closely linked to the underlying physics. Traditionally, ML has been used for static tasks like image classification, but it is increasingly applied to model physical systems that evolve over time. Examples include:
+
 Modeling conserved quantities, such as Hamiltonians, purely from data.
+
 Representing time-series data as differential equations, where the learning algorithm captures the dynamical system.
+
 Learning coordinate transformations to simplify dynamics, such as linearizing or decoupling them.
 
 Examples in Fluid Mechanics
 ======
 Machine learning is making significant contributions to various physical modeling tasks in fluid mechanics:
+
 Turbulence Closure Modeling: Applying ML to learn models for Reynolds stresses or sub-grid scale turbulence.
+  ![Machine Learning Data](../assets/images/Untitled4.png)
+
 CFD Solvers Improvement: Enhancing computational fluid dynamics (CFD) solvers with ML.
+  ![Machine Learning Data](../assets/images/Untitled5.png)
+
 Super-Resolution: Improving resolution in fluid simulations.
+
 Robust Modal Decompositions: Developing better methods for modal analysis.
+
 Network and Cluster Modeling: Using ML for network and cluster analysis in fluid systems.
+
 Control and Reinforcement Learning: Applying ML for fluid control and optimization tasks.
+
 Design of Experiments: Enhancing experimental design in cyber-physical systems.
+
 These problems inherently embed the learning process within a larger physics-based framework, ensuring that the ML models remain physically relevant and accurate.
 
 
