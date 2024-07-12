@@ -4,7 +4,8 @@ date: 2024-05-15
 ---
 Introduction
 ======
- Fluid mechanics is data-rich and presents many complex optimization problems that ML is well-suited to handle. Examples include optimizing wing design, estimating flow fields, and controlling turbulence for various engineering applications. 
+ Fluid mechanics is data-rich and presents many complex optimization problems that ML is well-suited to handle. Examples include optimizing wing design, estimating flow fields, and controlling turbulence for various engineering applications.
+ ![Machine Learning Data](assets/images/Untitled.png) 
  
   ML can provide surrogate models for fluid behaviors or directly solve fluid optimization tasks.
   The process of implementing ML in fluid mechanics is not automatic and requires expert human intervention at each step, from problem definition to model training and optimization. Despite the successes of ML in fields like computer vision and natural language processing, its application to physical sciences, including fluid mechanics, is still emerging and comes with both optimism and skepticism. 
