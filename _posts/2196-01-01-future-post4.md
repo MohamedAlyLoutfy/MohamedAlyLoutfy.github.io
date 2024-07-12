@@ -14,16 +14,27 @@ Overall, the availability and diversity of data are critical for building effect
 Embedding physics in the Data
 ======
 Training data can embed prior physical knowledge in several ways:
+
 Symmetries: If a system exhibits symmetries like translational or rotational invariance, training data can be enriched with shifted or rotated examples.
+
+![Machine Learning Data](../assets/images/Untitled7.png)
+
 Physical Intuition: Crafting new features using physical intuition, such as applying coordinate transformations to simplify representation or training.
+
 Multifidelity Data: Combining data from multiple sources of different fidelity (e.g., simulations, experiments) is crucial, especially in fields like flight testing and unsteady aerodynamics. Recent advances include using physics-informed neural networks with multifidelity data to approximate partial differential equations (PDEs).
 
 Examples in Fluid Mechanics
 ======
 Fluids data is typically vast and high-dimensional, often requiring millions of degrees of freedom to characterize flow fields. These fields evolve over time, creating time-series data. Key points include:
+
 Sparse Data: Despite the large spatial and temporal dimensions, data can be sparse in parameter space due to the high cost of investigating various geometries and Reynolds numbers.
+
 Algorithm Design: There are algorithms designed for both rich and sparse data. In some cases, limited data may come from specific measurements, such as time-series data from a few pressure measurements on an airfoil or force recordings on an experimental turbine.
+
 Transients: Observing system evolution during transients, when the system is away from its natural state, provides valuable insights.
+
+![Machine Learning Data](../assets/images/Untitled6.png)
+
 Overall, embedding physical knowledge into training data and addressing the challenges of vast and high-dimensional fluids data are essential for effective machine learning applications in fluid mechanics.
 
 

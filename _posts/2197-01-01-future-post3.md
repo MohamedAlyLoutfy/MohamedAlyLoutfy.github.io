@@ -42,10 +42,14 @@ Examples in Fluid Mechanics
 Machine learning is making significant contributions to various physical modeling tasks in fluid mechanics:
 
 Turbulence Closure Modeling: Applying ML to learn models for Reynolds stresses or sub-grid scale turbulence.
+
   ![Machine Learning Data](../assets/images/Untitled4.png)
 
+
 CFD Solvers Improvement: Enhancing computational fluid dynamics (CFD) solvers with ML.
+
   ![Machine Learning Data](../assets/images/Untitled5.png)
+  
 
 Super-Resolution: Improving resolution in fluid simulations.
 
