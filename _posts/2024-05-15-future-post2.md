@@ -1,5 +1,5 @@
 ---
-title: 'Mapping to Machine learning'
+title: 'Physics-Informed Machine Learning for Fluid Mechanics'
 date: 2024-05-15
 tags:
   - cool posts
@@ -8,20 +8,16 @@ tags:
 ---
 Inputs
 ======
-The inputs to the machine learning models in fluid mechanics include diverse data forms like turbulence models, CFD solvers, modal decompositions, and high-dimensional flow fields.
-Inputs may also be derived from varied sources including numerical simulations, laboratory experiments, and in-flight tests, which provide multifidelity data crucial for training.
+This section outlines the key steps in applying machine learning (ML) to fluid mechanics, emphasizing how prior physical knowledge can be integrated at each stage:
 
+Choosing the Problem: Selecting the specific fluid mechanics issue to model or the question to answer.
+Curating Data: Deciding on and preparing the data used to train the ML model.
+ML Architecture: Selecting the appropriate ML architecture to best represent or model the data.
+Designing Loss Functions: Creating loss functions to measure performance and guide the learning process.
+Optimization Algorithm: Implementing algorithms to train the model by minimizing the loss function over the training data.
 
-Outputs
-======
-Outputs generally represent physical quantities of interest such as Reynolds stresses, flow fields, or other relevant parameters that the model predicts.
-For example, outputs could include predictions of aerodynamic forces, turbulence behaviors, or simulations of fluid dynamics under various conditions.
+These steps are interconnected, often requiring iterative revisits and refinements based on outcomes at each stage. The discussion highlights the iterative nature of ML workflows, where researchers constantly refine the problem, data, architecture, loss functions, and optimization algorithms to enhance performance.
 
-
-Loss Function
-======
-The loss function in fluid mechanics-related machine learning typically includes terms like the L2 error to measure the difference between model predictions and actual outcomes.
-Regularization terms (e.g., L1 or L2 norms of parameters) are added to the loss function to promote model simplicity and prevent overfitting.
-Physics-informed loss functions may incorporate physical laws directly, promoting physically plausible solutions and enhancing the model's generalizability.
+The section provides a high-level overview of embedding physics into ML processes and reviews examples specific to fluid mechanics, offering references for more detailed information .
 
 
