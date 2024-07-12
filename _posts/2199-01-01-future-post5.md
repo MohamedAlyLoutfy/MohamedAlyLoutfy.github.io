@@ -8,7 +8,8 @@ tags:
 ---
 The architecture 
 ======
-Choosing an architecture to represent the machine learning (ML) model is crucial once the problem is identified, and data is collected and curated. A typical ML model is a function that maps inputs to outputs, often represented within a specified family of functions parameterized by θ. Key points include:
+Choosing an architecture to represent the machine learning (ML) model is crucial once the problem is identified, and data is collected and curated. A typical ML model is a function that maps inputs to outputs, often represented within a specified family of functions parameterized by θ. 
+
 Function Representation:
     ML models map inputs (x) to outputs (y) through a function f(x;θ).
     Linear regression models outputs as a linear function of inputs, with θ parameterizing this linear map.

@@ -6,9 +6,9 @@ tags:
   - category1
   - category2
 ---
-Inputs
+Physics-Informed Machine Learning
 ======
-This section outlines the key steps in applying machine learning (ML) to fluid mechanics, emphasizing how prior physical knowledge can be integrated at each stage:
+This section outlines the key steps in applying machine learning (ML) to fluid mechanics, emphasizing how prior physical knowledge can be integrated at each stage.
 
 Choosing the Problem: Selecting the specific fluid mechanics issue to model or the question to answer.
 Curating Data: Deciding on and preparing the data used to train the ML model.
