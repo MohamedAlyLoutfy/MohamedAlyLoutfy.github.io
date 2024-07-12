@@ -1,10 +1,6 @@
 ---
 title: 'The data'
 date: 2024-05-15
-tags:
-  - cool posts
-  - category1
-  - category2
 ---
 The Data
 ======

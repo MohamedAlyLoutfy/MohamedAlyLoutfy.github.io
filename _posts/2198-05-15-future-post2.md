@@ -1,10 +1,6 @@
 ---
 title: 'Physics-Informed Machine Learning for Fluid Mechanics'
 date: 2024-05-15
-tags:
-  - cool posts
-  - category1
-  - category2
 ---
 Physics-Informed Machine Learning
 ======
