@@ -4,15 +4,25 @@ date: 2024-05-15
 ---
 The Problem
 ======
-This section outlines the key steps in applying machine learning (ML) to fluid mechanics, emphasizing how prior physical knowledge can be integrated at each stage.
+This section emphasizes the importance of selecting the right problem when applying data science and machine learning (ML) to fluid mechanics. Data science involves asking and answering questions with data, and ML leverages historical data to build models for real-time predictions with new data. 
 
-Choosing the Problem: Selecting the specific fluid mechanics issue to model or the question to answer.
-Curating Data: Deciding on and preparing the data used to train the ML model.
-ML Architecture: Selecting the appropriate ML architecture to best represent or model the data.
-Designing Loss Functions: Creating loss functions to measure performance and guide the learning process.
-Optimization Algorithm: Implementing algorithms to train the model by minimizing the loss function over the training data.
-These steps are interconnected, often requiring iterative revisits and refinements based on outcomes at each stage. The discussion highlights the iterative nature of ML workflows, where researchers constantly refine the problem, data, architecture, loss functions, and optimization algorithms to enhance performance.
-The section provides a high-level overview of embedding physics into ML processes and reviews examples specific to fluid mechanics, offering references for more detailed information .
+    Problem Selection: The problem should be both important and tractable, involving input data that will be available in the future and output data that represents the desired prediction. The relationship between inputs and outputs is what the ML model will learn.
+
+    Types of ML Algorithms:
+
+        Supervised Learning: Uses labeled training data where outputs are predicted from inputs. Tasks can be:
+            Classification: Predicting discrete labels (e.g., identifying a "dog" or "cat" from an image).
+            Regression: Predicting continuous labels (e.g., calculating lift or drag from airfoil geometry).
+
+        Unsupervised Learning: Finds structure in data without labels, often called data mining. Tasks include:
+            Clustering: Identifying and characterizing discrete groupings in data.
+            Embedding/Dimensionality Reduction: Extracting continuous structure in data, e.g., using principal component analysis (PCA) or proper orthogonal decomposition (POD).
+
+        Reinforcement Learning: An agent learns to make decisions to interact with an environment for high-level objectives, such as playing games like chess or Go.
+
+  ![Machine Learning Data](../assets/images/Untitled3.jpg)
+
+Selecting the appropriate problem and determining the nature of input and output data are crucial steps that define the overall approach and type of ML algorithms to be used.
 
 Embedding physics in the problem
 ======
