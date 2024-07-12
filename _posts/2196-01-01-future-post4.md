@@ -1,5 +1,5 @@
 ---
-title: 'The data'
+title: 'The Data'
 date: 2024-05-15
 ---
 The Data

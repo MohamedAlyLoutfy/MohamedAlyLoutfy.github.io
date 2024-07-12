@@ -1,5 +1,5 @@
 ---
-title: 'The architecture '
+title: 'The Architecture '
 date: 2024-05-15
 ---
 The architecture 

@@ -1,5 +1,5 @@
 ---
-title: 'The Loss function '
+title: 'The Loss Function '
 date: 2024-05-15
 ---
 The Loss Function 

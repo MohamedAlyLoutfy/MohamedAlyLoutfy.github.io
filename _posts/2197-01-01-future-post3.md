@@ -1,8 +1,8 @@
 ---
-title: 'The problem'
+title: 'The Problem'
 date: 2024-05-15
 ---
-The problem
+The Problem
 ======
 This section outlines the key steps in applying machine learning (ML) to fluid mechanics, emphasizing how prior physical knowledge can be integrated at each stage.
 
