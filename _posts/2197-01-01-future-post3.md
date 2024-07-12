@@ -6,19 +6,19 @@ The Problem
 ======
 This section emphasizes the importance of selecting the right problem when applying data science and machine learning (ML) to fluid mechanics. Data science involves asking and answering questions with data, and ML leverages historical data to build models for real-time predictions with new data. 
 
-    Problem Selection: The problem should be both important and tractable, involving input data that will be available in the future and output data that represents the desired prediction. The relationship between inputs and outputs is what the ML model will learn.
+Problem Selection: The problem should be both important and tractable, involving input data that will be available in the future and output data that represents the desired prediction. The relationship between inputs and outputs is what the ML model will learn.
 
-    Types of ML Algorithms:
+Types of ML Algorithms:
 
-        Supervised Learning: Uses labeled training data where outputs are predicted from inputs. Tasks can be:
-            Classification: Predicting discrete labels (e.g., identifying a "dog" or "cat" from an image).
-            Regression: Predicting continuous labels (e.g., calculating lift or drag from airfoil geometry).
+    Supervised Learning: Uses labeled training data where outputs are predicted from inputs. Tasks can be:
+        Classification: Predicting discrete labels (e.g., identifying a "dog" or "cat" from an image).
+        Regression: Predicting continuous labels (e.g., calculating lift or drag from airfoil geometry).
 
-        Unsupervised Learning: Finds structure in data without labels, often called data mining. Tasks include:
-            Clustering: Identifying and characterizing discrete groupings in data.
-            Embedding/Dimensionality Reduction: Extracting continuous structure in data, e.g., using principal component analysis (PCA) or proper orthogonal decomposition (POD).
+    Unsupervised Learning: Finds structure in data without labels, often called data mining. Tasks include:
+        Clustering: Identifying and characterizing discrete groupings in data.
+        Embedding/Dimensionality Reduction: Extracting continuous structure in data, e.g., using principal component analysis (PCA) or proper orthogonal decomposition (POD).
 
-        Reinforcement Learning: An agent learns to make decisions to interact with an environment for high-level objectives, such as playing games like chess or Go.
+    Reinforcement Learning: An agent learns to make decisions to interact with an environment for high-level objectives, such as playing games like chess or Go.
 
   ![Machine Learning Data](../assets/images/Untitled3.jpg)
 
