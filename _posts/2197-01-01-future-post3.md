@@ -9,13 +9,16 @@ This section emphasizes the importance of selecting the right problem when apply
 Problem Selection: The problem should be both important and tractable, involving input data that will be available in the future and output data that represents the desired prediction. The relationship between inputs and outputs is what the ML model will learn.
 
 Types of ML Algorithms:
-
 Supervised Learning: Uses labeled training data where outputs are predicted from inputs. Tasks can be:
+
 Classification: Predicting discrete labels (e.g., identifying a "dog" or "cat" from an image).
+
 Regression: Predicting continuous labels (e.g., calculating lift or drag from airfoil geometry).
 
 Unsupervised Learning: Finds structure in data without labels, often called data mining. Tasks include:
+
 Clustering: Identifying and characterizing discrete groupings in data.
+
 Embedding/Dimensionality Reduction: Extracting continuous structure in data, e.g., using principal component analysis (PCA) or proper orthogonal decomposition (POD).
 
 Reinforcement Learning: An agent learns to make decisions to interact with an environment for high-level objectives, such as playing games like chess or Go.
