@@ -21,7 +21,7 @@ Role of Optimization Algorithms:
 Optimization algorithms are the engine powering ML, often abstracted from the decision process.
 Advanced optimization algorithms are a major focus of research, aiming to improve convergence and performance.
 
-![Machine Learning Data](../assets/images/Untitled13.png)
+![Machine Learning Data](../assets/images/Untitled13.jpg)
 
 Architecture and Loss Term Considerations:
 When designing new architectures or incorporating novel loss terms, it is often necessary to explicitly consider the optimization algorithm to ensure effective training.
