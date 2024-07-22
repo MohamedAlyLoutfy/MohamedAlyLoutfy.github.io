@@ -20,6 +20,8 @@ Variety of Architectures: The most common is the feedforward network, where data
 
 Layer Composition: Each layer consists of nodes where data is processed through a weighted sum and a nonlinear activation function.
 
+![Machine Learning Data](../assets/images/Untitled9.png)
+
 Parameters (θ): Determine the network weights and how data is passed between layers.
 
 Network Topology: The architecture (number of layers, size, activation functions) is specified by the designer or through meta-optimization, determining the family of functions the network can approximate.
@@ -59,6 +61,8 @@ Equivariant Networks: Designed to encode various symmetries, improving accuracy 
 
 Autoencoder Networks: Impose an information bottleneck to uncover low-dimensional structure in high-dimensional data.
 
+![Machine Learning Data](../assets/images/Untitled9.png)
+
 Physics-Embedded Architectures: Incorporate structures like Hamiltonian or Lagrangian frameworks.
 
 Physics-Informed Neural Networks (PINNs): Solve supervised learning problems while being constrained by governing physical laws.
@@ -84,6 +88,8 @@ Sparse Sensing: Used to recover pressure distributions around airfoils.
 Fourier Neural Operator: Performs super-resolution upscaling and simulation modeling tasks.
 
 Equivariant Convolutional Networks: Enforce symmetries in high-dimensional complex systems from fluid dynamics.
+
+![Machine Learning Data](../assets/images/Untitled9.png)
 
 Subgrid-Scale Scalar Flux Modeling: Incorporate physical invariances into neural networks.
 

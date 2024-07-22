@@ -25,15 +25,20 @@ In summary, the loss function is designed to measure and guide the model's perfo
 
 Embedding physics in the loss function
 ======
-Embedding physics into the loss function involves creating custom terms to enhance the training of accurate models. Key aspects include:
+Embedding physics into the loss function involves creating custom terms to enhance the training of accurate models. 
+Key aspects include:
+
     Custom Loss Functions:
         Designed for physics-informed architectures to promote efficient training.
         Physical priors like sparsity can be incorporated using L1 or L0 regularization on parameters (θ), aligning with the principle of parsimony central to physical modeling.
+
     Parsimony in Modeling:
         Ensures a balance between model complexity and descriptive capability, essential for generalization.
+
     Sparse Identification of Nonlinear Dynamics (SINDy):
         Learns dynamical system models with minimal terms necessary to describe training data.
         Different formulations include loss terms and optimization algorithms promoting physical notions like stability and energy conservation.
+        
     Stability and Energy Conservation:
         Stability-promoting loss functions, based on Lyapunov stability, have shown impressive results, especially in fluid systems.
 
