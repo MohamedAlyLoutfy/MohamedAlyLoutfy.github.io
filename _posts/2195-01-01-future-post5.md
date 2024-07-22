@@ -61,7 +61,7 @@ Equivariant Networks: Designed to encode various symmetries, improving accuracy 
 
 Autoencoder Networks: Impose an information bottleneck to uncover low-dimensional structure in high-dimensional data.
 
-![Machine Learning Data](../assets/images/Untitled9.png)
+![Machine Learning Data](../assets/images/Untitled10.png)
 
 Physics-Embedded Architectures: Incorporate structures like Hamiltonian or Lagrangian frameworks.
 
@@ -89,7 +89,7 @@ Fourier Neural Operator: Performs super-resolution upscaling and simulation mode
 
 Equivariant Convolutional Networks: Enforce symmetries in high-dimensional complex systems from fluid dynamics.
 
-![Machine Learning Data](../assets/images/Untitled9.png)
+![Machine Learning Data](../assets/images/Untitled11.png)
 
 Subgrid-Scale Scalar Flux Modeling: Incorporate physical invariances into neural networks.
 
