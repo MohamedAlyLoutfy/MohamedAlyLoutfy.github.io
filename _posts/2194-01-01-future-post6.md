@@ -12,6 +12,8 @@ Commonly uses metrics like the L2 error, which measures the average difference b
 Regularization:
 Additional terms, such as the L1 or L2 norm of the parameters (θ), are included to promote simplicity (parsimony) and prevent overfitting. These norms penalize large parameter values, encouraging simpler models.
 
+![Machine Learning Data](../assets/images/Untitled12.png)
+
 Balancing Objectives:
 The loss function often balances multiple competing objectives, such as optimizing both model performance and model complexity.
 
