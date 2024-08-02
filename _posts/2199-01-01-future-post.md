@@ -1,5 +1,5 @@
 ---
-title: 'Introduction'
+title: 'Applying machine learning to study fluid mechanics Introduction'
 date: 2024-05-15
 ---
 Introduction
@@ -346,25 +346,27 @@ Take-Home Message
 ======
 
 Machine learning (ML) holds significant promise for addressing complex optimization problems in fluid mechanics by providing surrogate models or directly solving tasks. Successful implementation of ML in this field requires expert intervention at each step, from problem definition to model training and optimization. Integrating physical knowledge into ML models enhances their generalization, interpretability, and overall performance, which is crucial for advancing applications in fluid mechanics.
+
 Overview of What Was Learned
+======
 
-    Introduction to ML in Fluid Mechanics: ML is highly suited to handle the data-rich and complex optimization problems in fluid mechanics. It can optimize wing designs, estimate flow fields, and control turbulence but requires expert human intervention for successful implementation.
+Introduction to ML in Fluid Mechanics: ML is highly suited to handle the data-rich and complex optimization problems in fluid mechanics. It can optimize wing designs, estimate flow fields, and control turbulence but requires expert human intervention for successful implementation.
 
-    Physics-Informed Machine Learning: Key steps in applying ML to fluid mechanics include problem selection, data curation, choosing appropriate ML architectures, designing loss functions, and implementing optimization algorithms. Integrating prior physical knowledge at each step is essential for improving performance.
+Physics-Informed Machine Learning: Key steps in applying ML to fluid mechanics include problem selection, data curation, choosing appropriate ML architectures, designing loss functions, and implementing optimization algorithms. Integrating prior physical knowledge at each step is essential for improving performance.
 
-    Problem Selection and Types of ML Algorithms: Selecting the right problem is crucial. Different types of ML algorithms (supervised, unsupervised, reinforcement learning) are suitable for various tasks such as classification, regression, clustering, and control.
+Problem Selection and Types of ML Algorithms: Selecting the right problem is crucial. Different types of ML algorithms (supervised, unsupervised, reinforcement learning) are suitable for various tasks such as classification, regression, clustering, and control.
 
-    Embedding Physics in the Problem: Embedding physical phenomena into ML models ensures that the models remain physically relevant. This includes modeling conserved quantities, representing time-series data as differential equations, and learning coordinate transformations.
+Embedding Physics in the Problem: Embedding physical phenomena into ML models ensures that the models remain physically relevant. This includes modeling conserved quantities, representing time-series data as differential equations, and learning coordinate transformations.
 
-    Examples in Fluid Mechanics: ML contributes to turbulence closure modeling, improving CFD solvers, super-resolution, modal decompositions, network and cluster modeling, control, and design of experiments.
+Examples in Fluid Mechanics: ML contributes to turbulence closure modeling, improving CFD solvers, super-resolution, modal decompositions, network and cluster modeling, control, and design of experiments.
 
-    The Importance of Data: Data quality and quantity are fundamental to building effective ML models. Embedding physical knowledge into the data, using symmetries, physical intuition, and multifidelity data enhances model training.
+The Importance of Data: Data quality and quantity are fundamental to building effective ML models. Embedding physical knowledge into the data, using symmetries, physical intuition, and multifidelity data enhances model training.
 
-    Architecture and Embedding Physics: The choice of ML architecture is critical. Custom neural networks, convolutional networks, recurrent networks, and physics-informed neural networks are used to embed physical knowledge into the model.
+Architecture and Embedding Physics: The choice of ML architecture is critical. Custom neural networks, convolutional networks, recurrent networks, and physics-informed neural networks are used to embed physical knowledge into the model.
 
-    Loss Function: The loss function measures model performance and guides optimization. Embedding physics into the loss function involves custom terms that promote efficient training and physical accuracy.
+Loss Function: The loss function measures model performance and guides optimization. Embedding physics into the loss function involves custom terms that promote efficient training and physical accuracy.
 
-    Optimization Algorithms: These algorithms are essential for training ML models. Embedding physics into the optimization process involves adding constraints and developing custom algorithms to handle non-convex loss functions.
+Optimization Algorithms: These algorithms are essential for training ML models. Embedding physics into the optimization process involves adding constraints and developing custom algorithms to handle non-convex loss functions.
 
 Conclusion
 ======
