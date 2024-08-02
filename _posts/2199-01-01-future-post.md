@@ -376,10 +376,10 @@ Integrating machine learning into fluid mechanics presents exciting opportunitie
 References
 ======
 
-Brunton, S. L., Noack, B. R., & Koumoutsakos, P. (2020). Machine learning for fluid mechanics. Annual Review of Fluid Mechanics, 52, 477-508.
-Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.
-Ling, J., Kurzawski, A., & Templeton, J. (2016). Reynolds averaged turbulence modelling using deep neural networks with embedded invariance. Journal of Fluid Mechanics, 807, 155-166.
-Loiseau, J.-C., & Brunton, S. L. (2018). Constrained sparse Galerkin regression. Journal of Fluid Mechanics, 838, 42-67.
-Raissi, M., Yazdani, A., & Karniadakis, G. E. (2020). Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations. Science, 367(6481), 1026-1030.
-Kutz, J. N. (2017). Deep learning in fluid dynamics. Journal of Fluid Mechanics, 814, 1-4.
-Rudy, S. H., Brunton, S. L., Proctor, J. L., & Kutz, J. N. (2017). Data-driven discovery of partial differential equations. Science Advances, 3(4), e1602614.
+1-Brunton, S. L., Noack, B. R., & Koumoutsakos, P. (2020). Machine learning for fluid mechanics. Annual Review of Fluid Mechanics, 52, 477-508.
+2-Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for 3-solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.
+4-Ling, J., Kurzawski, A., & Templeton, J. (2016). Reynolds averaged turbulence modelling using deep neural networks with 5-embedded invariance. Journal of Fluid Mechanics, 807, 155-166.
+6-Loiseau, J.-C., & Brunton, S. L. (2018). Constrained sparse Galerkin regression. Journal of Fluid Mechanics, 838, 42-67.
+7-Raissi, M., Yazdani, A., & Karniadakis, G. E. (2020). Hidden fluid mechanics: Learning velocity and pressure fields from 8-flow visualizations. Science, 367(6481), 1026-1030.
+9-Kutz, J. N. (2017). Deep learning in fluid dynamics. Journal of Fluid Mechanics, 814, 1-4.
+10-Rudy, S. H., Brunton, S. L., Proctor, J. L., & Kutz, J. N. (2017). Data-driven discovery of partial differential equations. Science Advances, 3(4), e1602614.
