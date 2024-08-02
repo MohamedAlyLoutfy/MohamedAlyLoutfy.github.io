@@ -1,5 +1,5 @@
 ---
-title: 'Applying machine learning to study fluid mechanics Introduction'
+title: 'Applying machine learning to study fluid mechanics'
 date: 2024-05-15
 ---
 Introduction
